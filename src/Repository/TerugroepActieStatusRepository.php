@@ -18,7 +18,7 @@ use Nettob\Component\Rdw\Model\TerugroepActieStatus;
  *
  * @author Lars Prakken <lars@directlease.nl>
  */
-class TerugroepActieRepository extends AbstractRepository
+class TerugroepActieStatusRepository extends AbstractRepository
 {
     public function __construct()
     {
@@ -61,6 +61,6 @@ class TerugroepActieRepository extends AbstractRepository
             }
         }
 
-        return $terugroepActieStatus;
+        return $terugroepActieStatussen;
     }
 }
