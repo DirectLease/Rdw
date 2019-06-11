@@ -102,4 +102,16 @@ class TerugroepActieStatus
 
 
 
+    /**
+     * @return string
+     */
+    public function getReferentieCode()
+    {
+        return $this->referentiecode_rdw;
+    }
+
+
+
+
+
 }
